@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
+    siteUrl:"https:///www.maximgodigna.com",
     title: `Maxim Godigna`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@panchitoboy`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -45,5 +46,6 @@ module.exports = {
         display: "swap",
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }
