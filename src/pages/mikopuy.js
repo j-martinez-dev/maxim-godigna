@@ -18,10 +18,10 @@ const Mikopuy = ({ data }) => (
       <Col sm={6}>
         <h1 className="text-center">Mikopüy</h1>
         <p>
-          MIKOPÜY c’ est la première « panadería vénézuélienne” ( boulangerie et
+          MIKOPÜY c’ est la première « panadería vénézuélienne » ( boulangerie et
           restaurant streed food ) de Paris dans laquelle on retrouve toutes les
           spécialités du petit déjeuner, desserts ainsi qu’ un nouveau concept
-          d’ empanadas « operadas »  ( opérées) qu’ on peut déguster tout au
+          d’ empanadas « operadas »  (opérées) qu’ on peut déguster tout au
           long de la journée avec les boissons typiques, cocktails et bières
           vénézuéliennes.
         </p>
