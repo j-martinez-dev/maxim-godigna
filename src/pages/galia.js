@@ -19,10 +19,11 @@ const Galia = () => (
         <h1 className="text-center">Restaurant Galia</h1>
         <p>
           Aux fourneaux de son restaurant depuis septembre 2015, le chef Godigna
-          propose une carte bistronomique qui change toutes les semaines en
-          fonction de son inspiration. Les assiettes vous invitent à une
-          découverte culinaire caractérisée par une fusion mêlant tradition et
-          exotisme, le tout préparé à base de produits frais et raffinés.
+          propose une carte bistronomique qui change en fonction de son
+          inspiration. Au programme d' un voyage gustatif exceptionnel, vous
+          pourrez déguster les incontournables de cette carte changeante dans
+          laquelle les fruits et les légumes d'Amérique du sud sont toujours à
+          l’ honneur.
         </p>
         <ul className="list-group">
           <a

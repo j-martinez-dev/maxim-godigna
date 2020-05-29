@@ -1,6 +1,6 @@
 import React from "react"
 import { Col, Row } from "react-bootstrap"
-
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -10,7 +10,13 @@ const IndexPage = ({ data }) => (
     <h1 className="text-center">Maxim Godigna</h1>
     <Row>
       <Col className="text-center" sm={{ order: 2, span: 6 }}>
-        <img className="center" src="https://via.placeholder.com/500"></img>
+        <div className="center">
+          <Img
+            style={{ height: "500px" }}
+            fluid={data.image1.childImageSharp.fluid}
+            alt="Chef Godigna"
+          />
+        </div>
       </Col>
       <Col className="text-center" sm={{ order: 1, span: 6 }}>
         <h2>Origines</h2>
@@ -43,7 +49,13 @@ const IndexPage = ({ data }) => (
     </Row>
     <Row>
       <Col className="text-center" sm={6}>
-        <img className="center" src="https://via.placeholder.com/500"></img>
+        <div className="center">
+          <Img
+            style={{ height: "500px" }}
+            fluid={data.image2.childImageSharp.fluid}
+            alt="Chef Godigna"
+          />
+        </div>
       </Col>
       <Col className="text-center" sm={6}>
         <h2>Une nouvelle passion, une nouvelle vie ...... </h2>
@@ -71,7 +83,13 @@ const IndexPage = ({ data }) => (
     </Row>
     <Row>
       <Col className="text-center" sm={{ order: 2, span: 6 }}>
-        <img className="center" src="https://via.placeholder.com/500"></img>
+        <div className="center">
+          <Img
+            style={{ height: "500px" }}
+            fluid={data.image3.childImageSharp.fluid}
+            alt="Chef Godigna"
+          />
+        </div>
       </Col>
 
       <Col className="text-center" sm={{ order: 1, span: 6 }}>
@@ -105,7 +123,13 @@ const IndexPage = ({ data }) => (
     </Row>
     <Row>
       <Col className="text-center" sm={6}>
-        <img className="center" src="https://via.placeholder.com/500"></img>
+        <div className="center">
+          <Img
+            style={{ height: "500px" }}
+            fluid={data.image4.childImageSharp.fluid}
+            alt="Chef Godigna"
+          />
+        </div>
       </Col>
       <Col className="text-center" sm={6}>
         <h2>Le retour à ses racines</h2>
@@ -185,3 +209,39 @@ const IndexPage = ({ data }) => (
 )
 
 export default IndexPage
+
+export const query = graphql`
+  query {
+    image1: file(relativePath: { eq: "max-1.jpeg" }) {
+      childImageSharp {
+        fluid(maxHeight: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    image2: file(relativePath: { eq: "max-2.jpeg" }) {
+      childImageSharp {
+        fluid(maxHeight: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    image3: file(relativePath: { eq: "max-3.jpeg" }) {
+      childImageSharp {
+        fluid(maxHeight: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    image4: file(relativePath: { eq: "max-4.png" }) {
+      childImageSharp {
+        fluid(maxHeight: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
