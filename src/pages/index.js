@@ -121,18 +121,13 @@ const IndexPage = ({ data }) => (
         <p>
           En 2020, le chef et son épouse Marieugénie décident de se lancer dans
           un projet qui leur tient particulièrement à cœur. Il s’agit cette
-          fois-ci de MIKOPÜY, une « panadería street food vénézuélienne” (
-          restaurant streed food et boulangerie) dans laquelle on retrouve
-          toutes les spécialités du petit déjeuner, desserts ainsi qu’ un
-          nouveau concept d’ empanadas « operadas »  ( opérées) qu’ on peut
-          déguster tout au long de la journée avec les boissons typiques,
-          cocktails et bières vénézuéliennes.
+          fois-ci de MIKOPÜY, un restaurant et boulangerie vénézuélienne.
         </p>
         <p>
           Le chef Maxim avoue qu’il n’ était pas forcément très antousiaste au
           début car il avait toujours cuisiné dans des restaurants étoilés,
           gastronomiques et bistronomiques. Cependant, il a réussi à trouver un
-          équilibre avec deux clientèles complètement différentes.{" "}
+          équilibre avec deux clientèles complètement différentes.
         </p>
         <p>
           Il décide donc de continuer avec cette cuisine bistronomique au

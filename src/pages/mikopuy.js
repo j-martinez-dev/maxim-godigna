@@ -18,11 +18,12 @@ const Mikopuy = ({ data }) => (
       <Col sm={6}>
         <h1 className="text-center">Mikopüy</h1>
         <p>
-          Aux fourneaux de son restaurant depuis septembre 2015, le chef Godigna
-          propose une carte bistronomique qui change toutes les semaines en
-          fonction de son inspiration. Les assiettes vous invitent à une
-          découverte culinaire caractérisée par une fusion mêlant tradition et
-          exotisme, le tout préparé à base de produits frais et raffinés.
+          MIKOPÜY c’ est la première « panadería vénézuélienne” ( boulangerie et
+          restaurant streed food ) de Paris dans laquelle on retrouve toutes les
+          spécialités du petit déjeuner, desserts ainsi qu’ un nouveau concept
+          d’ empanadas « operadas »  ( opérées) qu’ on peut déguster tout au
+          long de la journée avec les boissons typiques, cocktails et bières
+          vénézuéliennes.
         </p>
         <ul className="list-group">
           <a
