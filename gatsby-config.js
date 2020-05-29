@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl:"https:///www.maximgodigna.com",
+    siteUrl: "https:///www.maximgodigna.com",
     title: `Maxim Godigna`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@panchitoboy`,
+    description: ` Diplômé de la haute école de cuisine française Grégoire Ferrandi, 
+    le chef Maxim Godigna est le propriétaire du restaurant Galia, 
+    123 rue Didot dans le 14ème (face au bâtiment de la Croix-Rouge française).`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,14 +30,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-gtag`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // your google analytics tracking id
-        trackingId: `UA-168020458-1`,
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // enable ip anonymization
-        anonymize: true,
+        trackingId: "UA-168020458-1",
       },
     },
     {
