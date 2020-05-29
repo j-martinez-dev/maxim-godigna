@@ -11,7 +11,7 @@ const Mikopuy = ({ data }) => (
     <Row className="p-3">
       <Col className="text-center" sm={6}>
         <div className="center">
-          <Img fixed={data.logo.childImageSharp.fixed} alt="Mikopüy" />
+          <Img fluid={data.logo.childImageSharp.fluid} alt="Mikopüy" />
         </div>
       </Col>
       <Col sm={6}>
@@ -50,43 +50,43 @@ const Mikopuy = ({ data }) => (
         <Carousel>
           <Carousel.Item>
             <Img
-              fixed={data.image1.childImageSharp.fixed}
+              fluid={data.image1.childImageSharp.fluid}
               alt="Mikopüy"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image2.childImageSharp.fixed}
+              fluid={data.image2.childImageSharp.fluid}
               alt="Mikopüy"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image3.childImageSharp.fixed}
+              fluid={data.image3.childImageSharp.fluid}
               alt="Mikopüy"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image4.childImageSharp.fixed}
+              fluid={data.image4.childImageSharp.fluid}
               alt="Mikopüy"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image5.childImageSharp.fixed}
+              fluid={data.image5.childImageSharp.fluid}
               alt="Mikopüy"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image6.childImageSharp.fixed}
+              fluid={data.image6.childImageSharp.fluid}
               alt="Mikopüy"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image7.childImageSharp.fixed}
+              fluid={data.image7.childImageSharp.fluid}
               alt="Mikopüy"
             />
           </Carousel.Item>
@@ -102,64 +102,64 @@ export const query = graphql`
   query {
     logo: file(relativePath: { eq: "mikopuy-1.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image1: file(relativePath: { eq: "mikopuy/1.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image2: file(relativePath: { eq: "mikopuy/2.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image3: file(relativePath: { eq: "mikopuy/3.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image4: file(relativePath: { eq: "mikopuy/4.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image5: file(relativePath: { eq: "mikopuy/5.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image6: file(relativePath: { eq: "mikopuy/6.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image7: file(relativePath: { eq: "mikopuy/7.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }

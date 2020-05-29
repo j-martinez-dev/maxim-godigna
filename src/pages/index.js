@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col className="text-center" sm={{ order: 2, span: 6 }}>
         <div className="center">
-          <Img fixed={data.image1.childImageSharp.fixed} alt="Chef Godigna" />
+          <Img fluid={data.image1.childImageSharp.fluid} alt="Chef Godigna" />
         </div>
       </Col>
       <Col className="text-center" sm={{ order: 1, span: 6 }}>
@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col className="text-center" sm={6}>
         <div className="center">
-          <Img fixed={data.image2.childImageSharp.fixed} alt="Chef Godigna" />
+          <Img fluid={data.image2.childImageSharp.fluid} alt="Chef Godigna" />
         </div>
       </Col>
       <Col className="text-center" sm={6}>
@@ -76,7 +76,7 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col className="text-center" sm={{ order: 2, span: 6 }}>
         <div className="center">
-          <Img fixed={data.image3.childImageSharp.fixed} alt="Chef Godigna" />
+          <Img fluid={data.image3.childImageSharp.fluid} alt="Chef Godigna" />
         </div>
       </Col>
 
@@ -112,13 +112,13 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col className="text-center" sm={6}>
         <div className="center">
-          <Img fixed={data.image4.childImageSharp.fixed} alt="Chef Godigna" />
+          <Img fluid={data.image4.childImageSharp.fluid} alt="Chef Godigna" />
         </div>
       </Col>
       <Col className="text-center" sm={6}>
         <h2>Le retour à ses racines</h2>
         <p>
-          En février 2020, le chef et son épouse Marieugénie décident de se
+          En 2020, le chef et son épouse Marieugénie décident de se
           lancer dans un projet qui leur tient particulièrement à cœur. Il
           s’agit cette fois-ci de MIKOPÜY, une « panadería street food
           vénézuélienne” ( restaurant streed food et boulangerie) dans laquelle
@@ -198,32 +198,32 @@ export const query = graphql`
   query {
     image1: file(relativePath: { eq: "max-1.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image2: file(relativePath: { eq: "max-2.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image3: file(relativePath: { eq: "max-3.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image4: file(relativePath: { eq: "max-4.png" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }

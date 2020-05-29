@@ -11,14 +11,14 @@ const Galia = ({ data }) => (
     <Row className="p-3">
       <Col className="text-center" sm={6}>
         <div className="center">
-          <Img fixed={data.logo.childImageSharp.fixed} alt="Restaurant Galia" />
+          <Img fluid={data.logo.childImageSharp.fluid} alt="Restaurant Galia" />
         </div>
       </Col>
       <Col sm={6}>
         <h1 className="text-center">Restaurant Galia</h1>
         <p>
           Aux fourneaux de son restaurant depuis septembre 2015, le chef Godigna
-          propose une carte bistronomique qui change en fonction de son
+          propose une carte bistronomique qui change tous les mois en fonction de son
           inspiration. Au programme d' un voyage gustatif exceptionnel, vous
           pourrez déguster les incontournables de cette carte changeante dans
           laquelle les fruits et les légumes d'Amérique du sud sont toujours à
@@ -57,61 +57,61 @@ const Galia = ({ data }) => (
         <Carousel>
           <Carousel.Item>
             <Img
-              fixed={data.image1.childImageSharp.fixed}
+              fluid={data.image1.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image2.childImageSharp.fixed}
+              fluid={data.image2.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image3.childImageSharp.fixed}
+              fluid={data.image3.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image4.childImageSharp.fixed}
+              fluid={data.image4.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image5.childImageSharp.fixed}
+              fluid={data.image5.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image6.childImageSharp.fixed}
+              fluid={data.image6.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image7.childImageSharp.fixed}
+              fluid={data.image7.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image8.childImageSharp.fixed}
+              fluid={data.image8.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image9.childImageSharp.fixed}
+              fluid={data.image9.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
           <Carousel.Item>
             <Img
-              fixed={data.image10.childImageSharp.fixed}
+              fluid={data.image10.childImageSharp.fluid}
               alt="Restaurant Galia"
             />
           </Carousel.Item>
@@ -127,88 +127,88 @@ export const query = graphql`
   query {
     logo: file(relativePath: { eq: "galia-1.jpeg" }) {
       childImageSharp {
-        fixed(width: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image1: file(relativePath: { eq: "galia/image1.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image2: file(relativePath: { eq: "galia/image2.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image3: file(relativePath: { eq: "galia/image3.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image4: file(relativePath: { eq: "galia/image4.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image5: file(relativePath: { eq: "galia/image5.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image6: file(relativePath: { eq: "galia/image6.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image7: file(relativePath: { eq: "galia/image7.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image8: file(relativePath: { eq: "galia/image8.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image9: file(relativePath: { eq: "galia/image9.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
 
     image10: file(relativePath: { eq: "galia/image10.jpeg" }) {
       childImageSharp {
-        fixed(height: 500) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
