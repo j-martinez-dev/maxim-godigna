@@ -11,11 +11,7 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col className="text-center" sm={{ order: 2, span: 6 }}>
         <div className="center">
-          <Img
-            style={{ height: "500px" }}
-            fluid={data.image1.childImageSharp.fluid}
-            alt="Chef Godigna"
-          />
+          <Img fixed={data.image1.childImageSharp.fixed} alt="Chef Godigna" />
         </div>
       </Col>
       <Col className="text-center" sm={{ order: 1, span: 6 }}>
@@ -50,11 +46,7 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col className="text-center" sm={6}>
         <div className="center">
-          <Img
-            style={{ height: "500px" }}
-            fluid={data.image2.childImageSharp.fluid}
-            alt="Chef Godigna"
-          />
+          <Img fixed={data.image2.childImageSharp.fixed} alt="Chef Godigna" />
         </div>
       </Col>
       <Col className="text-center" sm={6}>
@@ -84,11 +76,7 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col className="text-center" sm={{ order: 2, span: 6 }}>
         <div className="center">
-          <Img
-            style={{ height: "500px" }}
-            fluid={data.image3.childImageSharp.fluid}
-            alt="Chef Godigna"
-          />
+          <Img fixed={data.image3.childImageSharp.fixed} alt="Chef Godigna" />
         </div>
       </Col>
 
@@ -124,11 +112,7 @@ const IndexPage = ({ data }) => (
     <Row>
       <Col className="text-center" sm={6}>
         <div className="center">
-          <Img
-            style={{ height: "500px" }}
-            fluid={data.image4.childImageSharp.fluid}
-            alt="Chef Godigna"
-          />
+          <Img fixed={data.image4.childImageSharp.fixed} alt="Chef Godigna" />
         </div>
       </Col>
       <Col className="text-center" sm={6}>
@@ -214,32 +198,32 @@ export const query = graphql`
   query {
     image1: file(relativePath: { eq: "max-1.jpeg" }) {
       childImageSharp {
-        fluid(maxHeight: 500) {
-          ...GatsbyImageSharpFluid
+        fixed(height: 500) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
 
     image2: file(relativePath: { eq: "max-2.jpeg" }) {
       childImageSharp {
-        fluid(maxHeight: 500) {
-          ...GatsbyImageSharpFluid
+        fixed(height: 500) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
 
     image3: file(relativePath: { eq: "max-3.jpeg" }) {
       childImageSharp {
-        fluid(maxHeight: 500) {
-          ...GatsbyImageSharpFluid
+        fixed(height: 500) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
 
     image4: file(relativePath: { eq: "max-4.png" }) {
       childImageSharp {
-        fluid(maxHeight: 500) {
-          ...GatsbyImageSharpFluid
+        fixed(height: 500) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
