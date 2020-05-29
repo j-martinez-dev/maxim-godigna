@@ -1,5 +1,6 @@
 import React from "react"
 import { Col, Row } from "react-bootstrap"
+import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -118,13 +119,13 @@ const IndexPage = ({ data }) => (
       <Col className="text-center" sm={6}>
         <h2>Le retour à ses racines</h2>
         <p>
-          En 2020, le chef et son épouse Marieugénie décident de se
-          lancer dans un projet qui leur tient particulièrement à cœur. Il
-          s’agit cette fois-ci de MIKOPÜY, une « panadería street food
-          vénézuélienne” ( restaurant streed food et boulangerie) dans laquelle
-          on retrouve toutes les spécialités du petit déjeuner, desserts ainsi
-          qu’ un nouveau concept d’ empanadas « operadas »  ( opérées) qu’ on
-          peut déguster tout au long de la journée avec les boissons typiques,
+          En 2020, le chef et son épouse Marieugénie décident de se lancer dans
+          un projet qui leur tient particulièrement à cœur. Il s’agit cette
+          fois-ci de MIKOPÜY, une « panadería street food vénézuélienne” (
+          restaurant streed food et boulangerie) dans laquelle on retrouve
+          toutes les spécialités du petit déjeuner, desserts ainsi qu’ un
+          nouveau concept d’ empanadas « operadas »  ( opérées) qu’ on peut
+          déguster tout au long de la journée avec les boissons typiques,
           cocktails et bières vénézuéliennes.
         </p>
         <p>

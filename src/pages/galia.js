@@ -1,6 +1,7 @@
 import React from "react"
 import { Col, Row, Carousel } from "react-bootstrap"
 import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -18,11 +19,11 @@ const Galia = ({ data }) => (
         <h1 className="text-center">Restaurant Galia</h1>
         <p>
           Aux fourneaux de son restaurant depuis septembre 2015, le chef Godigna
-          propose une carte bistronomique qui change tous les mois en fonction de son
-          inspiration. Au programme d' un voyage gustatif exceptionnel, vous
-          pourrez déguster les incontournables de cette carte changeante dans
-          laquelle les fruits et les légumes d'Amérique du sud sont toujours à
-          l’ honneur.
+          propose une carte bistronomique qui change tous les mois en fonction
+          de son inspiration. Au programme d' un voyage gustatif exceptionnel,
+          vous pourrez déguster les incontournables de cette carte changeante
+          dans laquelle les fruits et les légumes d'Amérique du sud sont
+          toujours à l’ honneur.
         </p>
         <ul className="list-group">
           <a
@@ -212,6 +213,5 @@ export const query = graphql`
         }
       }
     }
-
   }
 `

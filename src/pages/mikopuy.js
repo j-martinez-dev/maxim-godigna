@@ -1,13 +1,14 @@
 import React from "react"
 import { Col, Row, Carousel } from "react-bootstrap"
 import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Mikopuy = ({ data }) => (
   <Layout>
-    <SEO title="Restaurant Micopüy" />
+    <SEO title="Mikopüy" />
     <Row className="p-3">
       <Col className="text-center" sm={6}>
         <div className="center">
@@ -49,46 +50,25 @@ const Mikopuy = ({ data }) => (
       <Col sm={{ span: 6, offset: 3 }} className="p-3 text-center">
         <Carousel>
           <Carousel.Item>
-            <Img
-              fluid={data.image1.childImageSharp.fluid}
-              alt="Mikopüy"
-            />
+            <Img fluid={data.image1.childImageSharp.fluid} alt="Mikopüy" />
           </Carousel.Item>
           <Carousel.Item>
-            <Img
-              fluid={data.image2.childImageSharp.fluid}
-              alt="Mikopüy"
-            />
+            <Img fluid={data.image2.childImageSharp.fluid} alt="Mikopüy" />
           </Carousel.Item>
           <Carousel.Item>
-            <Img
-              fluid={data.image3.childImageSharp.fluid}
-              alt="Mikopüy"
-            />
+            <Img fluid={data.image3.childImageSharp.fluid} alt="Mikopüy" />
           </Carousel.Item>
           <Carousel.Item>
-            <Img
-              fluid={data.image4.childImageSharp.fluid}
-              alt="Mikopüy"
-            />
+            <Img fluid={data.image4.childImageSharp.fluid} alt="Mikopüy" />
           </Carousel.Item>
           <Carousel.Item>
-            <Img
-              fluid={data.image5.childImageSharp.fluid}
-              alt="Mikopüy"
-            />
+            <Img fluid={data.image5.childImageSharp.fluid} alt="Mikopüy" />
           </Carousel.Item>
           <Carousel.Item>
-            <Img
-              fluid={data.image6.childImageSharp.fluid}
-              alt="Mikopüy"
-            />
+            <Img fluid={data.image6.childImageSharp.fluid} alt="Mikopüy" />
           </Carousel.Item>
           <Carousel.Item>
-            <Img
-              fluid={data.image7.childImageSharp.fluid}
-              alt="Mikopüy"
-            />
+            <Img fluid={data.image7.childImageSharp.fluid} alt="Mikopüy" />
           </Carousel.Item>
         </Carousel>
       </Col>
@@ -163,6 +143,5 @@ export const query = graphql`
         }
       }
     }
-
   }
 `

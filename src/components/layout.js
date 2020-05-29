@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
         className="text-center"
         style={{ padding: "32px", backgroundColor: "#f4f4f1" }}
       >
-        © {new Date().getFullYear()}, Maxim Godigna { " "}
+        © {new Date().getFullYear()}, Maxim Godigna{" "}
         <span>
           <a href="https://www.instagram.com/godigna_chef/">Instagram</a>
         </span>
