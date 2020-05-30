@@ -7,7 +7,10 @@ import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO
+      title="Home"
+      description="Maxim godigna est un chef franco-vénézuélien. Il est diplômé de Ferrandi et a travaille dans plusieurs restaurants étoilés avant d’ouvrir Galia. Il propose ses services de traiteur et restaurant."
+    />
     <h1 className="text-center">Maxim Godigna</h1>
     <Row>
       <Col className="text-center" sm={{ order: 2, span: 6 }}>
@@ -119,9 +122,9 @@ const IndexPage = ({ data }) => (
       <Col className="text-center" sm={6}>
         <h2>Le retour à ses racines</h2>
         <p>
-          En 2020, le chef et son épouse Marieugénie décident de se lancer dans
-          un projet qui leur tient particulièrement à cœur. Il s’agit cette
-          fois-ci de MIKOPÜY, un restaurant et boulangerie vénézuélienne.
+          En 2020, le chef et son épouse décident de se lancer dans un projet
+          qui leur tient particulièrement à cœur. Il s’agit cette fois-ci de
+          MIKOPÜY, un restaurant et boulangerie vénézuélienne.
         </p>
         <p>
           Le chef Maxim avoue qu’il n’ était pas forcément très antousiaste au

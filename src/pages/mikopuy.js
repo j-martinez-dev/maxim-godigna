@@ -8,7 +8,10 @@ import SEO from "../components/seo"
 
 const Mikopuy = ({ data }) => (
   <Layout>
-    <SEO title="Mikopüy" />
+    <SEO
+      title="Mikopüy"
+      description="Mikopuy (3 Rue des plantes, Paris 14) est un restaurant et boulangerie ( panadería)  vénézuélienne. Vous pouvez manger les spécialités : empanadas, tequeños, pastelitos, jus de fruits frais, alfajores, cachitos, cocktails. Du petit déjeuner au dîner."
+    />
     <Row className="p-3">
       <Col className="text-center" sm={6}>
         <div className="center">
@@ -18,11 +21,11 @@ const Mikopuy = ({ data }) => (
       <Col sm={6}>
         <h1 className="text-center">Mikopüy</h1>
         <p>
-          MIKOPÜY c’ est la première « panadería vénézuélienne » ( boulangerie et
-          restaurant streed food ) de Paris dans laquelle on retrouve toutes les
-          spécialités du petit déjeuner, desserts ainsi qu’ un nouveau concept
-          d’ empanadas « operadas »  (opérées) qu’ on peut déguster tout au
-          long de la journée avec les boissons typiques, cocktails et bières
+          MIKOPÜY c’ est la première « panadería vénézuélienne » ( boulangerie
+          et restaurant streed food ) de Paris dans laquelle on retrouve toutes
+          les spécialités du petit déjeuner, desserts ainsi qu’ un nouveau
+          concept d’ empanadas « operadas »  (opérées) qu’ on peut déguster tout
+          au long de la journée avec les boissons typiques, cocktails et bières
           vénézuéliennes.
         </p>
         <ul className="list-group">

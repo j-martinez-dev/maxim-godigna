@@ -8,7 +8,10 @@ import SEO from "../components/seo"
 
 const Galia = ({ data }) => (
   <Layout>
-    <SEO title="Restaurant Galia" />
+    <SEO
+      title="Restaurant Galia"
+      description="Galia par Maxim Godigna (123 Rue Didot, Paris 14) est un restaurant bistronomique fusion franco-sudaméricaine. Spécialités foie gras exotique, ceviche, viande d’argentine, vins chiliens et argentins, viandes confites, cocktails."
+    />
     <Row className="p-3">
       <Col className="text-center" sm={6}>
         <div className="center">
@@ -16,7 +19,7 @@ const Galia = ({ data }) => (
         </div>
       </Col>
       <Col sm={6}>
-        <h1 className="text-center">Restaurant Galia</h1>
+        <h1 className="text-center">Galia par Maxim Godigna</h1>
         <p>
           Aux fourneaux de son restaurant depuis septembre 2015, le chef Godigna
           propose une carte bistronomique qui change tous les mois en fonction

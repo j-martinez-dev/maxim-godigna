@@ -10,6 +10,10 @@ p {
   font-weight: 400;
   color: #776f60;
 }
+.nav-link {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+}
 
 h1 {
   font-family: "Cormorant Garamond", serif;

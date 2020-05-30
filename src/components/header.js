@@ -13,7 +13,6 @@ export default function Header() {
         <Container>
           <Navbar.Brand>
             <img
-              style={{ height: "45px", width: "70px" }}
               src={"/sign.png"}
               alt="logo"
             />
