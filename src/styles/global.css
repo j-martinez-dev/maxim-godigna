@@ -15,6 +15,22 @@ p {
   font-size: 1.2rem;
 }
 
+.btn-primary {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  color: #3e3930;
+  background-color: #f4f4f1;
+  border-color: #f4f4f1;
+}
+
+.btn-primary:hover {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  color: #f4f4f1;
+  background-color: #776f60;
+  border-color: #776f60;
+}
+
 h1 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;

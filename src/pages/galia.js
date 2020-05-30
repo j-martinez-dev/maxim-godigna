@@ -54,6 +54,16 @@ const Galia = ({ data }) => (
             Web: www.restaurantgalia.com
           </a>
         </ul>
+        <p class="text-center p-2">
+          <a
+            href="https://www.restaurantgalia.com/reservation.html"
+            class="btn btn-primary"
+            role="button"
+            aria-disabled="true"
+          >
+            Réservations
+          </a>
+        </p>
       </Col>
     </Row>
     <Row>
