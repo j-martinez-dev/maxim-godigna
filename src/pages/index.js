@@ -165,7 +165,7 @@ const IndexPage = ({ data }) => (
     </p>
     <p>
       En 2018, il reçoit une toque du guide Gastronomique français Gault et
-      Millau et le titre de Maitre Restaurateur lui est également attribué. Ce
+      Millau, confirmé en 2019 et 2020. Le titre de Maitre Restaurateur lui est également attribué. Ce
       titre est validé après les audits de contrôle qui valident ses
       connaissances en tant que chef cuisinier de métier.
     </p>
