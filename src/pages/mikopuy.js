@@ -1,8 +1,7 @@
-import React from "react"
-import { Col, Row, Carousel } from "react-bootstrap"
-import Img from "gatsby-image"
 import { graphql } from "gatsby"
-
+import Img from "gatsby-image"
+import React from "react"
+import { Carousel, Col, Row } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -21,12 +20,11 @@ const Mikopuy = ({ data }) => (
       <Col sm={6}>
         <h1 className="text-center">Mikopüy</h1>
         <p>
-          MIKOPÜY c’ est la première « panadería vénézuélienne » ( boulangerie
-          et restaurant streed food ) de Paris dans laquelle on retrouve toutes
-          les spécialités du petit déjeuner, desserts ainsi qu’ un nouveau
-          concept d’ empanadas « operadas »  (opérées) qu’ on peut déguster tout
-          au long de la journée avec les boissons typiques, cocktails et bières
-          vénézuéliennes.
+          Mikopüy c’ est le premier restaurant - empanadería - panadería de
+          Paris. On y retrouve les spécialités traditionnelles ainsi qu’un
+          nouveau concept d’ empanadas “operadas” ( opérées ) préparées à la
+          minute. Vous pouvez également déguster les boissons typiques , jus
+          maison, cocktails et bières vénézuéliennes.
         </p>
         <ul className="list-group">
           <a

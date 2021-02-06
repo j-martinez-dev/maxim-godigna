@@ -1,7 +1,7 @@
-import React from "react"
-import { Col, Row } from "react-bootstrap"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import React from "react"
+import { Col, Row } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -64,10 +64,10 @@ const IndexPage = ({ data }) => (
           au management d'un restaurant.
         </p>
         <p>
-          Sa carrière professionnelle débute en tant que commis au restaurant
-          "Au Gourmand", un restaurant gastronomique dans le quartier de
-          l'Opéra, mais son talent lui permet de gravir les échelons rapidement
-          pour intégrer les équipes des plus grandes tables de Paris.
+          Sa carrière professionnelle débute au restaurant gastronomique "Au
+          Gourmand" dans le quartier de l'Opéra, mais son talent lui permet de
+          gravir les échelons rapidement pour intégrer les équipes des plus
+          grandes tables et Palaces de Paris.
         </p>
         <p>
           Le jeune cuisinier travaille aux côtés du chef étoilé Jean François
@@ -124,7 +124,7 @@ const IndexPage = ({ data }) => (
         <p>
           En 2020, le chef et son épouse décident de se lancer dans un projet
           qui leur tient particulièrement à cœur. Il s’agit cette fois-ci de
-          MIKOPÜY, un restaurant et boulangerie vénézuélienne.
+          MIKOPÜY, un restaurant décontracté de cuisine vénézuélienne.
         </p>
         <p>
           Le chef Maxim avoue qu’il n’ était pas forcément très antousiaste au
@@ -145,10 +145,8 @@ const IndexPage = ({ data }) => (
 
     <h1 className="text-center">Distinctions</h1>
     <p>
-      En 2016, Galia a été classé 16ème meilleur restaurant à moins de 50euros
-      par les fines gueules du Parisien Magazine puis il a été nominé avec 3
-      autres restaurants Parisiens au prix de la meilleure installation du guide
-      culinaire Lebey.
+      En 2016, Galia a été classé 16ème meilleur restaurant de Paris puis il a
+      été nominé au prix de la meilleure installation du guide culinaire Lebey.
     </p>
     <p>
       Engagé à respecter les produits de qualité et participant activement à la
@@ -165,9 +163,9 @@ const IndexPage = ({ data }) => (
     </p>
     <p>
       En 2018, il reçoit une toque du guide Gastronomique français Gault et
-      Millau, confirmé en 2019 et 2020. Le titre de Maitre Restaurateur lui est également attribué. Ce
-      titre est validé après les audits de contrôle qui valident ses
-      connaissances en tant que chef cuisinier de métier.
+      Millau, confirmé en 2019 et 2020. Le titre de Maitre Restaurateur lui est
+      également attribué. Ce titre est validé après les audits de contrôle qui
+      valident ses connaissances en tant que chef cuisinier de métier.
     </p>
     <Row>
       <Col className="text-center" sm={4}>
