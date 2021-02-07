@@ -88,8 +88,8 @@ const IndexPage = ({ data }) => (
         <h2>Une vie culinaire</h2>
         <p>
           Quelques années plus tard, il décide d'entamer une nouvelle aventure
-          dans les cuisines du restaurant "Paris", l'incontournable symbole
-          gastronomique du Lutetia, le plus ancien hôtel de la capitale
+          dans les cuisines du restaurant étoilé "Paris", l'incontournable
+          symbole gastronomique du Lutetia, le plus ancien hôtel de la capitale
           française. Le chef Philippe Renard est à la tête de cette maison et
           c'est grâce aux années passées à ses côtés que notre chef va
           développer une cuisine française traditionnelle de haut niveau.
