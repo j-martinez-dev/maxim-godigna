@@ -122,50 +122,32 @@ const IndexPage = ({ data }) => (
       <Col className="text-center" sm={6}>
         <h2>Le retour à ses racines</h2>
         <p>
-          En 2020, le chef et son épouse décident de se lancer dans un projet
-          qui leur tient particulièrement à cœur. Il s’agit cette fois-ci de
-          MIKOPÜY, un restaurant décontracté de cuisine vénézuélienne.
+          En 2020, le chef et son épouse décident de se lancer dans un projet un nouveau projet. Il s’agit cette fois-ci de MIKOPÜY, un restaurant décontracté de cuisine vénézuélienne.
         </p>
         <p>
-          Le chef Maxim avoue qu’il n’ était pas forcément très antousiaste au
-          début car il avait toujours cuisiné dans des restaurants étoilés,
-          gastronomiques et bistronomiques. Cependant, il a réussi à trouver un
-          équilibre avec deux clientèles complètement différentes.
+        Le chef Maxim avoue qu’il n’ était pas forcément très antousiaste au début car il avait toujours cuisiné dans des restaurants étoilés, gastronomiques et bistronomiques. Cependant, il a réussi à trouver un équilibre avec deux clientèles complètement différentes.
         </p>
         <p>
-          Il décide donc de continuer avec cette cuisine bistronomique au
-          restaurant Galia et vous fait découvrir à Mikopüy les plats de rue,
-          les produits locaux qui ne sont pas forcement les produits de saison
-          en France ( il a encore du mal à s’ habituer à ce sujet mais n’
-          utilise que des produits venant d’ Amérique Latine ) et toute la
-          culture vénézuélienne.
+        Il décide donc de continuer avec cette cuisine bistronomique au restaurant Galia et vous fait découvrir à Mikopüy la cuisine de rue et la culture vénézuélienne.
         </p>
       </Col>
     </Row>
 
     <h1 className="text-center">Distinctions</h1>
     <p>
-      En 2016, Galia a été classé 16ème meilleur restaurant de Paris puis il a
-      été nominé au prix de la meilleure installation du guide culinaire Lebey.
+      En 2016 Galia a été classé 16ème meilleur restaurant de Paris et fait partie des 3 meilleures nouvelles ouvertures. 
     </p>
     <p>
-      Engagé à respecter les produits de qualité et participant activement à la
-      promotion et la transmission du patrimoine culinaire français, le chef
-      Godigna a reçu l'appellation de restaurant de qualité du Collège Culinaire
-      de France et attribuée par le plus grand rassemblement de chefs.
+      Engagé à respecter les produits de qualité et participant activement à la promotion et la transmission du patrimoine culinaire français, le chef Godigna a été récompensé par le Collège Culinaire de France avec l'appellation de restaurant de qualité. 
     </p>
     <p>
-      En 2017 le chef devient membre actif de l'association Euro - Toques France
-      et s'engage à défendre les produits sains de qualité. Euro-toques France
-      est la seule association lobbyiste de chefs cuisiniers reconnue
-      officiellement par la commision europénne et elle bénéficie d'une présence
-      permanente à Bruxelles au coeur du système décisionnel européen.
+      En 2017 le chef devient membre actif de l'association Euro - Toques France et s'engage à défendre les produits sains de qualité. Euro-toques France est la seule association lobbyiste de chefs cuisiniers qui bénéficie d'une présence permanente à Bruxelles au coeur de la commission européenne.
     </p>
     <p>
-      En 2018, il reçoit une toque du guide Gastronomique français Gault et
-      Millau, confirmé en 2019 et 2020. Le titre de Maitre Restaurateur lui est
-      également attribué. Ce titre est validé après les audits de contrôle qui
-      valident ses connaissances en tant que chef cuisinier de métier.
+      En 2018 il reçoit une toque du guide Gastronomique français Gault et Millau et celle-ci est confirmée par la suite chaque année.
+    </p>
+    <p>
+      Le titre de Maitre Restaurateur lui est également attribué par l’État. 
     </p>
     <Row>
       <Col className="text-center" sm={4}>

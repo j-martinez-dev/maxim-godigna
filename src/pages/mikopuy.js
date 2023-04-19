@@ -20,18 +20,14 @@ const Mikopuy = ({ data }) => (
       <Col sm={6}>
         <h1 className="text-center">Mikopüy</h1>
         <p>
-          Mikopüy c’ est le premier restaurant - empanadería - panadería de
-          Paris. On y retrouve les spécialités traditionnelles ainsi qu’un
-          nouveau concept d’ empanadas “operadas” ( opérées ) préparées à la
-          minute. Vous pouvez également déguster les boissons typiques , jus
-          maison, cocktails et bières vénézuéliennes.
+          Mikopüy c’ est le premier restaurant - empanadería - panadería de Paris. On y retrouve toutes les spécialités traditionnelles du Vénézuéla ainsi qu’un nouveau concept d’ empanadas “operadas” ( opérées ) préparées à la minute. Vous pouvez aussi y déguster les boissons typiques , jus maison, cocktails et bières vénézuéliennes. Notre équipe traiteur s’ occupe également de vos événements.
         </p>
         <ul className="list-group">
           <a
             className="list-group-item list-group-item-action"
             href="https://www.google.com/maps?q=3+Rue+des+Plantes"
           >
-            Addresse: 3 rue des plantes, 75014 Paris 
+            Addresse: 3 rue des plantes, 75014 Paris (Metro 4)
           </a>
           <a
             className="list-group-item list-group-item-action"

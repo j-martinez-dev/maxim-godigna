@@ -33,7 +33,7 @@ const Galia = ({ data }) => (
             className="list-group-item list-group-item-action"
             href="https://www.google.com/maps?q=123+Rue+Didot"
           >
-            Addresse: 123 rue didot, 75014 Paris
+            Addresse: 123 rue didot, 75014 Paris (Metro 13 / Tram 3A)
           </a>
           <a
             className="list-group-item list-group-item-action"
