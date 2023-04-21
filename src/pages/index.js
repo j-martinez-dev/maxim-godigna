@@ -92,20 +92,21 @@ const IndexPage = ({ data }) => (
           symbole gastronomique du Lutetia, le plus ancien hôtel de la capitale
           française. Le chef Philippe Renard est à la tête de cette maison et
           c'est grâce aux années passées à ses côtés que notre chef va
-          développer une cuisine française traditionnelle de haut niveau.
+          développer une cuisine française traditionnelle de haut niveau
         </p>
         <p>
-          Le chef Godigna accepte par la suite de nouvelles propositions et crée
-          des fusions orientales au Buddha Bar Hôtel de Paris, il prépare de
-          nombreux événements pour les ambassades et il s'initie en tant que
-          professeur particulier de cuisine pour préparer des candidats au CAP
-          cuisine.
+          Le chef Godigna accepte par la suite de nouvelles propositions et
+          s’occupe des fusions orientales au Buddha Bar Hôtel de Paris, il
+          cuisine lors de nombreux événements pour les ambassades et devient
+          professeur de cuisine pour préparer les élèves au CAP cuisine. Le chef
+          est également jury pour les diplômes de cuisine dans les grandes
+          écoles Parisiennes.
         </p>
         <p>
           Puis, attiré par le succès de l'émission Top chef, le chef Maxim
-          revient dans les cuisines françaises et devient le second de cuisine
-          du finaliste Yoni Saada. Au cours de ces années, il découvre le monde
-          des petites brigades et développe sa créativité.
+          Godigna revient dans les cuisines françaises et devient le second du
+          finaliste Saada. Au cours de ces années, il y découvre le monde des
+          petites brigades et développe sa créativité.
         </p>
         <p>
           Fin 2015, il décide d’ouvrir son premier restaurant dans la Capitale
@@ -122,32 +123,47 @@ const IndexPage = ({ data }) => (
       <Col className="text-center" sm={6}>
         <h2>Le retour à ses racines</h2>
         <p>
-          En 2020, le chef et son épouse décident de se lancer dans un projet un nouveau projet. Il s’agit cette fois-ci de MIKOPÜY, un restaurant décontracté de cuisine vénézuélienne.
+          En 2020, le chef et son épouse décident de se lancer dans un nouveau
+          projet. Il s’agit cette fois-ci de MIKOPÜY, un restaurant décontracté
+          de cuisine vénézuélienne.
         </p>
         <p>
-        Le chef Maxim avoue qu’il n’ était pas forcément très antousiaste au début car il avait toujours cuisiné dans des restaurants étoilés, gastronomiques et bistronomiques. Cependant, il a réussi à trouver un équilibre avec deux clientèles complètement différentes.
+          Le chef Maxim avoue qu’il n’ était pas forcément très enthousiaste au
+          début car il avait toujours cuisiné dans des restaurants étoilés et
+          gastronomiques. Cependant, il a réussi à trouver un équilibre avec
+          deux clientèles complètement différentes.
         </p>
         <p>
-        Il décide donc de continuer avec cette cuisine bistronomique au restaurant Galia et vous fait découvrir à Mikopüy la cuisine de rue et la culture vénézuélienne.
+          Il décide donc de continuer avec cette cuisine bistronomique au
+          restaurant Galia et vous fait découvrir à Mikopüy la cuisine de rue et
+          la culture vénézuélienne.
         </p>
       </Col>
     </Row>
 
     <h1 className="text-center">Distinctions</h1>
     <p>
-      En 2016 Galia a été classé 16ème meilleur restaurant de Paris et fait partie des 3 meilleures nouvelles ouvertures. 
+      En 2016 Galia a été classé 16ème meilleur restaurant de Paris et fait
+      partie des 3 meilleures nouvelles ouvertures.
     </p>
     <p>
-      Engagé à respecter les produits de qualité et participant activement à la promotion et la transmission du patrimoine culinaire français, le chef Godigna a été récompensé par le Collège Culinaire de France avec l'appellation de restaurant de qualité. 
+      Engagé à respecter les produits de qualité et participant activement à la
+      promotion et la transmission du patrimoine culinaire français, le chef
+      Godigna a été récompensé par le Collège Culinaire de France avec
+      l'appellation de restaurant de qualité.
     </p>
     <p>
-      En 2017 le chef devient membre actif de l'association Euro - Toques France et s'engage à défendre les produits sains de qualité. Euro-toques France est la seule association lobbyiste de chefs cuisiniers qui bénéficie d'une présence permanente à Bruxelles au coeur de la commission européenne.
+      En 2017 le chef devient membre actif de l'association Euro - Toques France
+      et s'engage à défendre les produits sains de qualité. Euro-toques France
+      est la seule association lobbyiste de chefs cuisiniers qui bénéficie d'une
+      présence permanente à Bruxelles au coeur de la commission européenne.
     </p>
     <p>
-      En 2018 il reçoit une toque du guide Gastronomique français Gault et Millau et celle-ci est confirmée par la suite chaque année.
+      En 2018 il reçoit une toque du guide Gastronomique français Gault et
+      Millau et celle-ci est confirmée par la suite chaque année.
     </p>
     <p>
-      Le titre de Maitre Restaurateur lui est également attribué par l’État. 
+      Le titre de Maitre Restaurateur lui est également attribué par l’État.
     </p>
     <Row>
       <Col className="text-center" sm={4}>
