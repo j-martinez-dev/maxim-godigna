@@ -12,10 +12,7 @@ export default function Header() {
       >
         <Container>
           <Navbar.Brand>
-            <img
-              src={"/sign.png"}
-              alt="logo"
-            />
+            <img src={"/sign.png"} alt="logo" />
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
